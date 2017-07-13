@@ -28,3 +28,9 @@ do
  echo $myvar
  myvar=$(( $myvar + 1 ))
 done
+Linux Shell 中写循环时，常常要用到变量的自增，下面总结了五种整形变量自增的方法：
+1、i='expr $i + 1';
+2、let i+=1;
+3、((i++));
+4、i=$ [ $i+1 ];
+5、i=$(( $i + 1 ))
